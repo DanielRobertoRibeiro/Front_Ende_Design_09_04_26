@@ -1,0 +1,50 @@
+/* SELETOR UNIVERSAL (reset)*/
+
+/* Não rodou dentro do HTML, rever no que deu, provavel que esteja separado de HTML como ARQUIVO, ambos devem estar ma mesma pasta*/
+*{
+    /* margin 10px 20px; -10px (esquerda/direita) 20 px - (no topo/baixo) */
+
+    margin:0;        /* remove espaços externos  */
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background:transparent;
+}
+#container{
+    display:flex;
+    flex-direction:coluns;
+    gap:10px;    /* espaçamento entre os elementos diferentes */
+    padding:10px;
+}
+#conteudo-principal{
+    display:flex;
+    gap:20px;
+    width:100%;
+}
+header{
+    background:goldenrod;
+    text-align:center;
+    padding:20px;
+}
+.conteudo{
+    background:purple;
+    color:white;
+    text-align:center;
+    padding:100px;
+}
+.conteudo article{
+    display:flex;
+    flex-direction:coluns;
+}
+aside{
+    flex:1; /* faz com que o aside ocupe menos espaço */
+    baclground:lightgreen;
+    padding:20px;
+}
+
+footer{
+    background:yellow;
+    padding:40px;
+    text-aling:center;
+}

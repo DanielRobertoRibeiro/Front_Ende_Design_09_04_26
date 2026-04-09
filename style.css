@@ -1,0 +1,23 @@
+body{
+    background:blue;
+}
+/* Não rodou, rever no que deu, provavel que esteja separado de HTML como ARQUIVO */
+
+h1{
+    color:green;
+}
+/* Nesse caso, o titulo h1 no html fica com a cor verde */
+
+#titulo1{
+    color:green;
+}
+#titulo2{
+    color:red;
+    front-size:20px;
+}
+
+/* Nomeando por id no HTML, Pode escolher se aplica cores em todas os h1's ou escolher aqueles com cores e mudar o tamanho */
+
+.card
+
+/* mesma ideia do que está acima, com a diferença que está nos p's */
